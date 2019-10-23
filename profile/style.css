@@ -77,6 +77,7 @@ i {
   padding: 30px;
   border: 1px solid #D8D8D7;
   box-shadow: 4px 4px 5px 0px rgba(50,50,50,0.8);
+  border-radius: 10px;
 }
 
 .top-icon-size {
