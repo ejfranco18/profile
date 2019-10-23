@@ -41,12 +41,14 @@ img {
 
 a {
   color: #ff6600;
-  transition: .5s;
+  transition: .8s;
   text-decoration: none;
+  display: inline-block;
  }
 
 a:hover {
   color: #21A0A0;
+  transform: rotate(360deg);
 }
 
 ul {
@@ -103,6 +105,8 @@ i {
 .cta-orange:hover {
   background-color: #21A0A0;
   color: #FCFFF7;
+  transform: rotateY(360deg) scale(1.2);
+
 }
 
 .img-travel {
@@ -145,5 +149,3 @@ i {
     width: 50%;
   }
 }
-
-
