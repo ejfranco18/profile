@@ -1,0 +1,28 @@
+footer {
+  background-color: #2c2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.social-media i {
+  color: #1FDD87;
+  font-size: 35px;
+}
+
+.disclaimer {
+  color: #6B6C6C;
+  margin-top: 20px;
+}
+
+.disclaimer i {
+  color: #BF0F12;
+}

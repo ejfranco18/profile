@@ -1,0 +1,54 @@
+.card-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  margin-right: 15px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  width: 70%;
+  height: 50%;
+}
+
+.card p {
+  margin-top: 0;
+  color: #979998;
+}
+
+@media (max-width: 610px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-wrapper {
+    flex-wrap: wrap;
+
+  }
+
+  .card {
+    margin: 10px 10px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  i {
+    font-size: 50px;
+  }
+}

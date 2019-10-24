@@ -1,0 +1,31 @@
+header {
+  padding: 200px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 40px;
+}
+
+.banner-info h2 {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.banner-info a {
+  text-decoration: none;
+  background-color: #1FDD87;
+  color: #FFF;
+  padding: 16px 36px;
+  border-radius: 50px;
+  transition: 0.1s ease;
+}
+
+.banner-info a:hover {
+  background-color: #13bf72;
+}
